@@ -1,0 +1,229 @@
+body {
+    background: #232222;
+    overflow-x: hidden;
+}
+.content-timeline__time {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: calc(50% - 38px);
+    background-color: #232222;
+    z-index: 0;
+    padding: 10px 0;
+}
+.content-timeline__time__timeago {
+    font-family: Roboto;
+    font-size: .6875em;
+    line-height: normal;
+    font-weight: 400;
+    font-style: normal;
+    color: #bbb;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.content-timeline__detail__title {
+    font-family: TMSans;
+    font-size: 1.375em;
+    line-height: normal;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin: 8px 0 0;
+}
+.sidebar-trend__item__link {
+    color: #ddd;
+}
+.sidebar-mosts__item__title {
+    font-family: TMSans;
+    font-size: 1em;
+    line-height: 1.25em;
+    font-weight: 700;
+    font-style: normal;
+    color: #ddd;
+    margin: 0 0 8px;
+    padding: 0;
+}
+.content-title a {
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar-video__list__item {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    border-bottom: 1px solid #EEE;
+    color: #ddd;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+.content-comments__sub-title span {
+    position: relative;
+    color: #ddd;
+    font-weight: 700;
+    font-family: TMSans;
+    font-size: 17px;
+}
+.content-comments__item__author__name {
+    display: table-cell;
+    height: 19px;
+    vertical-align: middle;
+    color: #fff;
+    font-family: TMSans;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.content-comments__item__message {
+    color: #ddd;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.content-body {
+    width: 100%;
+    position: relative;
+    display: block;
+    color: #eee;
+}
+.content-tags b {
+    color: #eee;
+}
+.headline {
+    position: relative;
+    width: 100%;
+    background-color: #232222;
+    margin-top: -60px;
+    padding: 64px 4px 4px;
+}
+.sidebar-teknostore {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #111;
+    box-shadow: inset 0 0 0 2px #333;
+    padding: 32px;
+}
+.sidebar-teknostore__products__title {
+    margin: 16px 0 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: TMSans;
+    color: #fff;
+    max-height: 38px;
+    overflow: hidden;
+}
+.sidebar-teknostore__title {
+    display: inline-block;
+    font-size: 12px;
+    color: #ddd;
+    font-family: Roboto;
+    vertical-align: top;
+    margin: 0 6px;
+    line-height: 16px;
+}
+.sidebar-teknostore__products__price {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #ddd;
+    margin-left: 8px;
+    padding: 6px 0 7px;
+    text-decoration: line-through;
+}
+.content-timeline__tab__filter__select {
+    background-color: #232222;
+    border: none;
+    color: #ddd;
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-size: 12px 6px;
+    padding: 0 40px 8px 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.content-timeline__tab__filter__title {
+    color: #ddd;
+    text-align: center;
+    padding: 0 10px 0 0;
+    margin-top: -25px;
+    font-weight: 400;
+}
+.content-application__item a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+}
+.content-card__detail {
+    float: right;
+    width: calc(100% - 222px);
+    height: 125px;
+    padding: 16px;
+    background-color: #333;
+}
+.content-card__title a {
+    color: #fff;
+    text-decoration: none!important;
+    display: block;
+}
+.content-card__category {
+    display: table-cell;
+    font-family: Roboto;
+    font-size: .75em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ddd;
+}
+.content-comments__form__comment {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    padding: 16px;
+    outline: 0;
+    border: 1px solid #DDD;
+    background-color: #333;
+}
+
+
+#adunit {
+    visibility: hidden!important;
+}
+.adm-ads-area {
+    visibility:hidden!important;
+}
+.wt-masthead__horizontal {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    visibility: hidden!important;
+}
+.wt-masthead {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    margin-top: 60px;
+    box-shadow: inset 0 -2px 5px 0 rgba(0,0,0,.1);
+    padding: 16px 0;
+    transition: all .3s;
+    background: #E0E0E0;
+    visibility: hidden!important;
+}
