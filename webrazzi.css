@@ -60,6 +60,10 @@ a.page-numbers {
    color:#ccc!important;
 }
 
+.thb-author-content h5 a {
+   color:#fff!important;
+}
+
 #kvkk {   
    color:#111!important;
 }
@@ -80,6 +84,10 @@ h4 {
 
 a {
    color:#fff!important;
+}
+
+a:hover {
+   color:#f8e600!important;
 }
 
 span {
